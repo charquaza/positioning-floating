@@ -1,6 +1,6 @@
 body {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 80px auto 0;
     padding: 0 10px 10px;
     line-height: 1.5;
 }
@@ -9,6 +9,7 @@ header {
     display: flex;
     justify-content: space-around;
     position: fixed;
+    top: 0;
     width: calc(100vw - 20px);
     max-width: 1100px;
     height: 35px;
@@ -18,10 +19,6 @@ header {
 header .logo {
     font-size: 2rem;
     font-weight: bold;
-}
-
-div.main-container {
-    padding-top: 80px;
 }
 
 main {
